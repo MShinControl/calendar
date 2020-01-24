@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="main-ctn">
+        <h3 class="header"></h3>
+        <div class="table-ctn">
+            <button onclick="previous()">
+                <img src="assets/left.png">
+            </button>
+            <table class="table">
+                <tr class="days">
+                    <th style="color: red">S</th>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>T</th>
+                    <th>F</th>
+                    <th style="color: red;">S</th>
+                </tr>
+                <tbody class="line"></tbody>
+                <tbody class="calendar-body"></tbody>
+            </table>
+            <button onclick="next()">
+                <img src="assets/next.png">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
